@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#65dbeb;
+    color: #000;
+}
+
+header {
+    background-color: #00acc1;
+    color: white;
+    padding: 1vh 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    background-color: #007c91;
+}
+
+.logo-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.logo {
+    max-width: 100px;
+    height: auto;
+    margin-right: 2vw;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 0 1vw;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 1vh 2vw;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #000000;
+}
+
+
+
+
+main {
+    padding: 2vh 5vw;
+}
+
+
+
+footer {
+    background-color: #00acc1;
+    color: white;
+    text-align: center;
+    padding: 2vh 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.p-footer {
+    font-size: 20px;
+}
+
+.social-media {
+    margin: 1vh 0;
+}
+
+.social-media a {
+    color: white;
+    margin: 0 1vw;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    color: #004d40;
+}
+
+.map {
+    margin-top: 2vh;
+}
+
+.map iframe {
+    width: 100%;
+    height: 450px;
+    border: 0;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+@media (max-width: 768px) {
+    .mision, .vision {
+        width: 100%;
+    }
+
+    .img-valores {
+        width: 100%;
+        max-width: 200px;
+    }
+}
+
+

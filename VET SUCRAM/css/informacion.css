@@ -1,0 +1,136 @@
+.chat-container {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    border: 3px solid #f1f1f1;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.chat-container h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.chat-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-container button {
+    margin: 5px 0;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.chat-container button:hover {
+    background-color: #218838;
+}
+
+.response {
+    margin-top: 20px;
+}
+
+.response p {
+    margin: 0;
+}
+
+.response a {
+    color: #28a745;
+    text-decoration: none;
+}
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f7fc; /* Color de fondo celeste */
+    margin: 0;
+    padding: 0;
+}
+
+.form-container {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #ffffff; /* Fondo blanco */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: #0069d9; /* Azul principal */
+}
+
+h3 {
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: grid;
+    gap: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"]
+{
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+button {
+    background-color: #0069d9; /* Azul principal */
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3; /* Azul más oscuro al pasar el mouse */
+}
+
+@media (max-width: 768px) {
+    .form-container {
+        width: 90%;
+    }
+}
+
+/* Estilos para el campo de contraseña */
+
+input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+input[type="password"]:focus {
+    border-color: #0069d9; /* Cambia el color del borde al enfocar */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Agrega una sombra alrededor del borde */
+    outline: none; /* Elimina el contorno predeterminado */
+}
